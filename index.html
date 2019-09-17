@@ -1,60 +1,72 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
-		<style> * {margin: 0; padding: 0;} </style>
-		<script src="../p5.min.js"></script>
-		<script src="../addons/p5.dom.min.js"></script>
-		<script src="../addons/p5.sound.min.js"></script>
-		<script src="sketch.js"></script>
-		<style>
-			#score {
-				position:absolute;
-				top:10px;
-				left:20px;
-				font-family:Courier;
-				font-size:50px;
-				color:#ffffff;
-			}
-			#highscore {
-				position:absolute;
-				font-family:Courier;
-				font-size:50px;
-				top:430px;
-				left:20px;
-				color:#ff0000;
-			}
-			#gameOver {
-				position:absolute;
-				font-family:Courier;
-				font-size:50px;
-				top:200px;
-				left:60px;
-				color:#ffffff;
-			}
-			#instructions {
-				position:absolute;
-				font-family:Courier;
-				font-size:35px;
-				top:350px;
-				left:52px;
-				color:#ffffff;
-			}
-			#instructions2 {
-				position:absolute;
-				font-family:Courier;
-				font-size:35px;
-				top:400px;
-				left:57px;
-				color:#ffffff;
-			}
-		</style>
-	</head>
-	<body>
-		<p id="score"></p>
-		<p id="highscore"></p>
-		<p id="gameOver"></p>
-		<p id="instructions">Arrow keys to move.</p>
-		<p id="instructions2">Use them to go up!</p>
-	</body>
+
+<head>
+	<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<script src="p5.min.js"></script>
+	<script src="addons/p5.dom.min.js"></script>
+	<script src="addons/p5.sound.min.js"></script>
+	<script src="sketch.js"></script>
+	<style>
+		#score {
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			font-family: Courier;
+			font-size: 50px;
+			color: #ffffff;
+		}
+
+		#highscore {
+			position: absolute;
+			font-family: Courier;
+			font-size: 50px;
+			top: 430px;
+			left: 20px;
+			color: #ff0000;
+		}
+
+		#gameOver {
+			position: absolute;
+			font-family: Courier;
+			font-size: 50px;
+			top: 200px;
+			left: 60px;
+			color: #ffffff;
+		}
+
+		#instructions {
+			position: absolute;
+			font-family: Courier;
+			font-size: 35px;
+			top: 350px;
+			left: 52px;
+			color: #ffffff;
+		}
+
+		#instructions2 {
+			position: absolute;
+			font-family: Courier;
+			font-size: 35px;
+			top: 400px;
+			left: 57px;
+			color: #ffffff;
+		}
+	</style>
+</head>
+
+<body>
+	<p id="score"></p>
+	<p id="highscore"></p>
+	<p id="gameOver"></p>
+	<p id="instructions">Arrow keys to move.</p>
+	<p id="instructions2">Use them to go up!</p>
+</body>
+
 </html>
